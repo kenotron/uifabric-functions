@@ -25,5 +25,4 @@ export = async function (context, data) {
         
         context.res = { buildId: build.id };
     }
-    context.done();
 };
