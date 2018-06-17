@@ -51,6 +51,7 @@ module.exports = function (context, data) {
         return __generator(this, function (_a) {
             switch (_a.label) {
                 case 0:
+                    if (!(data.action == 'opened' || data.action == 'synchronize')) return [3 /*break*/, 4];
                     project = 'UI Fabric';
                     id = data.number;
                     ref = "refs/pull/" + id + "/merge";
@@ -68,8 +69,8 @@ module.exports = function (context, data) {
                 case 3:
                     build = _a.sent();
                     context.res = { buildId: build.id };
-                    context.done();
-                    return [2 /*return*/];
+                    _a.label = 4;
+                case 4: return [2 /*return*/];
             }
         });
     });
