@@ -1,0 +1,21 @@
+{
+  "name": "fabric-webhook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc -w",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vso-node-api": "^6.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "10.3.3",
+    "typescript": "^2.9.2"
+  }
+}
