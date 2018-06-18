@@ -2,7 +2,7 @@
   "name": "fabric-webhook",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "start": "tsc -w",
     "build": "tsc",
